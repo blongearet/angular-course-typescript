@@ -1,0 +1,40 @@
+{
+  "name": "angular-course-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src --recursive --watch",
+    "start": "tsc -p . -w",
+    "start-01": "tsc -w ./src/01-about-ts-types/*.ts",
+    "start-02": "tsc -w ./src/02-about-let-and-const/*.ts",
+    "start-03": "tsc -w ./src/03-about-classes/*.ts",
+    "start-04": "tsc -w ./src/04-about-destructuring/*.ts",
+    "start-05": "tsc -w ./src/05-about-interfaces/*.ts",
+    "start-06": "tsc -w ./src/06-about-lambdas/*.ts",
+    "start-07": "tsc -w ./src/07-about-modules/**/*.ts",
+    "start-08": "tsc -w ./src/08-about-decorators/**/*.ts",
+    "start-09": "tsc -w ./src/09-about-non-nullable-types/*.ts",
+    "test-01": "mocha src/01-about-ts-types/**/*.js --recursive --watch",
+    "test-02": "mocha src/02-about-let-and-const/**/*.js --recursive --watch",
+    "test-03": "mocha src/03-about-classes/**/*.js --recursive --watch",
+    "test-04": "mocha src/04-about-destructuring/**/*.js --recursive --watch",
+    "test-05": "mocha src/05-about-interfaces/**/*.js --recursive --watch",
+    "test-06": "mocha src/06-about-lambdas/**/*.js --recursive --watch",
+    "test-07": "mocha src/07-about-modules/**/*.js --recursive --watch",
+    "test-08": "mocha src/08-about-decorators/**/*.js --recursive --watch",
+    "test-09": "mocha src/09-about-non-nullable-types/**/*.js --recursive --watch"
+  },
+  "author": "",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^3.5.2",
+    "@types/mocha": "^2.2.48",
+    "@types/node": "^6.14.10",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0",
+    "ts-loader": "^0.9.5",
+    "tslint": "^3.15.1",
+    "typescript": "^2.9.2"
+  }
+}
